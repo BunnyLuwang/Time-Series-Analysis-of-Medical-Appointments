@@ -1,7 +1,6 @@
 # Time Series Analysis of Medical Appointments Using SQL
 This repository contains a data analytics project that performs time series analysis of medical appointment data using SQL queries. The analysis focuses on clean data preparation, visualizing trends in appointment counts over time, and extracting actionable insights from a real-world healthcare dataset using standard SQL techniques.
 
-Tableau Dashboard Link: https://public.tableau.com/views/MedicalAppoinmentAnalysis/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 ## Project Overview
 Healthcare systems generate large volumes of appointment data. Analyzing this data with a time-series perspective can help answer important operational questions like:
 
@@ -44,3 +43,5 @@ Matplotlib / Seaborn	(optional) plotting trends and time series patterns
 CSV / SQL Database	Dataset storage
 
 This SQL-centric workflow encourages analysts to leverage SQL’s strengths for temporal data insights.
+
+Tableau Dashboard Link: https://public.tableau.com/views/MedicalAppoinmentAnalysis/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
