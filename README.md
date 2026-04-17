@@ -1,4 +1,4 @@
-# Time Series Analysis of Medical Appointments Using SQL
+# Time Series Analysis of Medical Appointments
 This repository contains a data analytics project that performs time series analysis of medical appointment data using SQL queries. The analysis focuses on clean data preparation, visualizing trends in appointment counts over time, and extracting actionable insights from a real-world healthcare dataset using standard SQL techniques.
 
 ## Project Overview
