@@ -2,7 +2,7 @@
 
 > An SQL-driven analytics project uncovering scheduling patterns, 
 > no-show trends, and peak demand periods in a 110,000+ record 
-> healthcare dataset — with an interactive Tableau dashboard for 
+> healthcare dataset - with an interactive Tableau dashboard for 
 > stakeholder communication.
 
 ---
