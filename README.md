@@ -58,30 +58,30 @@ Tableau Dashboard Link: https://public.tableau.com/views/MedicalAppointmentNo-Sh
 - **Busiest single day: June 6, 2016** with 4,529 appointments
 - **Wednesday and Tuesday** are peak weekdays (25,090 and 24,831 
   appointments respectively)
-- **Saturday has only 39 appointments** — high no-show rate on 
+- **Saturday has only 39 appointments** - high no-show rate on 
   Saturdays (23.1%) is based on a very small sample and should 
   be interpreted with caution
 
 ### Gender Distribution
 - **Female patients dominate: 70,119 (65.5%)** vs Male: 36,869 (34.5%)
-- No-show rates are similar across genders — gender alone is not 
+- No-show rates are similar across genders - gender alone is not 
   a strong predictor of absence
 
 ### Scheduling Patterns
 - Average of **10.17 days between booking and appointment**
 - Same-day appointments (lead time = 0) have significantly lower 
-  no-show rates — urgency reduces absence
+  no-show rates - urgency reduces absence
 - Longer scheduling delays correlate with higher no-show likelihood
 
 ### No-Show Risk Factors
-- **Overall no-show rate: 20.2%** — persistent across all months, 
+- **Overall no-show rate: 20.2%** - persistent across all months, 
   indicating a structural not seasonal problem
-- **Alcoholism patients: ~42% no-show rate** — highest risk group, 
+- **Alcoholism patients: ~42% no-show rate** - highest risk group, 
   more than double the average
 - **Age group 18-35** shows the highest no-show rate among 
   demographic segments
 - **SMS paradox:** Patients who received SMS showed higher no-show 
-  rates (27.6%) than those who didn't (16.7%) — because SMS was 
+  rates (27.6%) than those who didn't (16.7%) - because SMS was 
   targeted at already high-risk patients, not because SMS is 
   ineffective
 
@@ -89,5 +89,5 @@ Tableau Dashboard Link: https://public.tableau.com/views/MedicalAppointmentNo-Sh
 Redesign the SMS targeting strategy to focus on age 18-35 patients 
 and those with alcoholism diagnoses. Supplement with direct phone 
 call reminders for the highest-risk segments. Given the stable ~20% 
-no-show rate across all months, a systemic intervention — not a 
-seasonal campaign — is required.
+no-show rate across all months, a systemic intervention - not a 
+seasonal campaign - is required.
