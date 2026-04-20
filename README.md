@@ -46,6 +46,9 @@ This SQL-centric workflow encourages analysts to leverage SQL’s strengths for 
 
 Tableau Dashboard Link: https://public.tableau.com/views/MedicalAppointmentNo-ShowAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
+<img width="1644" height="760" alt="Screenshot 2026-04-20 184843" src="https://github.com/user-attachments/assets/ef0b48d7-8494-40ca-a7be-c23b000d5f39" />
+
+
 ## Key Insights from SQL + Python Analysis
 
 ### Appointment Volume
