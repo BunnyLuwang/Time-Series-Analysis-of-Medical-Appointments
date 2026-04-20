@@ -1,50 +1,71 @@
 # Time Series Analysis of Medical Appointments
-This repository contains a data analytics project that performs time series analysis of medical appointment data using SQL queries. The analysis focuses on clean data preparation, visualizing trends in appointment counts over time, and extracting actionable insights from a real-world healthcare dataset using standard SQL techniques.
 
-## Project Overview
-Healthcare systems generate large volumes of appointment data. Analyzing this data with a time-series perspective can help answer important operational questions like:
+> An SQL-driven analytics project uncovering scheduling patterns, 
+> no-show trends, and peak demand periods in a 110,000+ record 
+> healthcare dataset — with an interactive Tableau dashboard for 
+> stakeholder communication.
 
- > When do most appointments occur?
+---
 
- > How do weekly and monthly patterns differ?
+## Business Problem
 
- > Are there trends around scheduling delays or no-shows?
+Healthcare systems struggle with appointment no-shows, uneven demand 
+distribution, and scheduling inefficiencies - leading to wasted 
+clinical capacity and longer patient wait times. This project analyzes 
+appointment data from a time-series perspective to answer:
 
-This project implements a structured workflow to explore such patterns using SQL on a cleaned dataset, making it perfect for those learning SQL analytics, time series analysis, and healthcare data exploration.
+- When do peak appointment volumes occur (daily / weekly / monthly)?
+- What is the no-show rate and which patient segments are most affected?
+- How large are scheduling delays between booking and appointment date?
+- Are there actionable patterns that could reduce no-shows?
 
-## Tasks done in the project:
-1. Data Preparation
+---
 
-> Load and inspect the medical appointment dataset
+## Dataset
 
-> Clean and format dates for use in SQL time-series analysis
+- **Records:** 110,000+ medical appointments
+- **Source:** Brazilian public health system dataset (Kaggle)
+- **Key fields:** ScheduledDay, AppointmentDay, No-show status, 
+  patient demographics, health conditions, SMS reminder flag
 
-> Identify missing or inconsistent data (cleaning steps)
+---
 
-2. Time Series SQL Analysis
+## Methodology
 
-> SQL queries included in the Jupyter Notebook focus on:
+**1. Data Preparation (Python)**
+- Loaded and inspected the dataset for nulls, duplicates, 
+  and data type issues
+- Parsed and formatted datetime columns for SQL time-series analysis
+- Cleaned inconsistent date entries and removed invalid records
 
-> Daily, weekly, and monthly counts of appointments
+**2. Time Series SQL Analysis**
+Core SQL techniques applied:
 
-> Trend detection and peak volume periods
+| Technique | Purpose |
+|---|---|
+| `GROUP BY` + `DATE_TRUNC` | Daily, weekly, monthly appointment counts |
+| `COUNT()` + `AVG()` | Volume aggregation and averages |
+| Window functions | Rolling trends and period-over-period comparison |
+| `DATEDIFF` / date arithmetic | Scheduling delay distribution |
+| Subqueries & CTEs | No-show rate by patient segment |
 
-> Calculating averages and identifying significant patterns in appointment scheduling
+**3. Visualization & Dashboard (Tableau)**
+- Built an interactive Tableau Public dashboard
+- Visualized appointment trends, no-show rates, and peak periods
+- Enabled filtering by time period, patient demographics, 
+  and health conditions
 
-> Comparing time intervals between scheduled and actual appointment dates
+---
 
-Each query demonstrates core SQL functions such as GROUP BY, DATE_TRUNC, COUNT(), and window functions for time-series aggregation.
+## Tech Stack
 
-## Tools & Technologies
-Technology	Purpose
-SQL	Main tool for querying and analyzing time-series data
-Python / Jupyter Notebook	Hosting SQL execution environment and visualization
-Matplotlib / Seaborn	(optional) plotting trends and time series patterns
-CSV / SQL Database	Dataset storage
+`SQL` `Python` `Pandas` `Matplotlib` `Seaborn` `Tableau Public` 
+`Jupyter Notebook`
 
-This SQL-centric workflow encourages analysts to leverage SQL’s strengths for temporal data insights.
+---
 
-Tableau Dashboard Link: https://public.tableau.com/views/MedicalAppointmentNo-ShowAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+## Tableau Dashboard Link: 
+https://public.tableau.com/views/MedicalAppointmentNo-ShowAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 <img width="1644" height="760" alt="Screenshot 2026-04-20 184843" src="https://github.com/user-attachments/assets/ef0b48d7-8494-40ca-a7be-c23b000d5f39" />
 
