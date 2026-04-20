@@ -44,4 +44,4 @@ CSV / SQL Database	Dataset storage
 
 This SQL-centric workflow encourages analysts to leverage SQL’s strengths for temporal data insights.
 
-Tableau Dashboard Link: https://public.tableau.com/views/MedicalAppoinmentAnalysis/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+Tableau Dashboard Link: https://public.tableau.com/views/MedicalAppointmentNo-ShowAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
